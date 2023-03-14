@@ -9,5 +9,16 @@ int main ()
 {
     vector <int> records;
     vector <int> edades (5); //* le pone limite
-    vector <char> chars;
+    vector <char> chars {'h', 'o' , 'l', 'a'};
+
+    // for (int i = 20; i < 30; i++)
+    // {
+    //     chars[i - 20] = i; 
+    // }
+
+    for (int i = 0; i < 4; i++)
+    {
+        cout << chars[i] << endl;
+    }
+
 }
