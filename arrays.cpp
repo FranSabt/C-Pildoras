@@ -7,7 +7,7 @@ int main()
 
     cout << "matrix: " << sizeof(matrix) << endl;
     
-    for (int i = 0; i < sizeof(matrix)  / sizeof(int); i++)
+    for (int i = 0; i < sizeof(matrix) / sizeof(int); i++)
     {
         cout << matrix[i] << endl;
     }
