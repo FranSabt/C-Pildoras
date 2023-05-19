@@ -11,4 +11,5 @@ int main()
     {
         cout << matrix[i] << endl;
     }
+    return 0;
 }
